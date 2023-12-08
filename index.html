@@ -32,6 +32,11 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #45a049;
         }
 
         nav input {
@@ -74,13 +79,12 @@
     </header>
 
     <nav>
-        <a href="#">Home</a>
-        <a href="#">Phones</a>
-        <a href="#">Tablets</a>
-        <a href="#">Wearables</a>
-        <a href="#">Accessories</a>
-        <input type="text" id="search" placeholder="Search...">
-        <label for="search" style="display: none;">Search</label>
+        <a href="#" aria-label="Home">Home</a>
+        <a href="#" aria-label="Phones">Phones</a>
+        <a href="#" aria-label="Tablets">Tablets</a>
+        <a href="#" aria-label="Wearables">Wearables</a>
+        <a href="#" aria-label="Accessories">Accessories</a>
+        <input type="text" placeholder="Search..." aria-label="Search">
     </nav>
 
     <div class="product-container">
