@@ -34,6 +34,12 @@
             text-decoration: none;
         }
 
+        nav input {
+            float: right;
+            padding: 10px;
+            margin: 10px;
+        }
+
         .product-container {
             display: flex;
             flex-wrap: wrap;
@@ -73,10 +79,8 @@
         <a href="#">Tablets</a>
         <a href="#">Wearables</a>
         <a href="#">Accessories</a>
-        <form action="#" method="get">
-            <label for="search">Search:</label>
-            <input type="text" id="search" name="search" placeholder="Search...">
-        </form>
+        <input type="text" id="search" placeholder="Search...">
+        <label for="search" style="display: none;">Search</label>
     </nav>
 
     <div class="product-container">
@@ -104,3 +108,4 @@
 </body>
 
 </html>
+
