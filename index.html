@@ -23,7 +23,7 @@
         nav {
             background-color: #4CAF50;
             overflow: hidden;
-            padding: 0.5em; /* Add padding to the nav for better readability */
+            padding: 0.5em;
         }
 
         nav a {
@@ -36,7 +36,7 @@
         }
 
         nav input {
-            float: right; /* Align the search input to the right */
+            float: right;
             padding: 10px;
             margin: 10px;
         }
@@ -80,8 +80,10 @@
         <a href="#">Tablets</a>
         <a href="#">Wearables</a>
         <a href="#">Accessories</a>
-        <label for="search">Search:</label>
-        <input type="text" id="search" placeholder="Search...">
+        <form action="#" method="get">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search" placeholder="Search...">
+        </form>
     </nav>
 
     <div class="product-container">
@@ -109,3 +111,4 @@
 </body>
 
 </html>
+
